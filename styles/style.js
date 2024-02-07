@@ -1,16 +1,16 @@
 import { StyleSheet } from "react-native";
 
 export const gStyles = StyleSheet.create({
-    main: {
+    container: {
         flex: 1,
-        padding: 20,
-        backgroundColor: 'green',
+        width: '100%',
+        backgroundColor: '#d4a752',
         alignItems: 'center',
         justifyContent: 'center',
-    },
+      },
     title: {
-        fontSize: 20,
-        color: 'red',
-        fontFamily: ''
+        fontSize: 30,
+        color: '#1a1918',
+        fontFamily: 'rubik-bold'
     }
 })
