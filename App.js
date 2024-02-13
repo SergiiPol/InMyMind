@@ -8,7 +8,8 @@ export default function App() {
     "roboto-bold": require("./assets/fonts/roboto/Roboto-Bold.ttf"),
     "roboto-light": require("./assets/fonts/roboto/Roboto-Light.ttf"),
     "rubik-bold": require("./assets/fonts/rubik/Rubik-Bold.ttf"),
-    "rubik-light": require("./assets/fonts/rubik/Rubik-Light.ttf")
+    "rubik-light": require("./assets/fonts/rubik/Rubik-Light.ttf"),
+    "rubik-medium": require("./assets/fonts/rubik/Rubik-Medium.ttf")
   });
 
   useEffect(() => {

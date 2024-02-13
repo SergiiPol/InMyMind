@@ -6,11 +6,17 @@ export const gStyles = StyleSheet.create({
         width: '100%',
         backgroundColor: '#d4a752',
         alignItems: 'center',
-        justifyContent: 'center',
+        justifyContent: 'space-between',
+
       },
     title: {
         fontSize: 30,
         color: '#1a1918',
         fontFamily: 'rubik-bold'
+    },
+    textMedium: {
+        fontSize: 20,
+        color: '#1a1918',
+        fontFamily: 'rubik-medium'
     }
 })
