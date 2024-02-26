@@ -1,10 +1,11 @@
-import React, { useState } from 'react';
+import React, { useState, useContext } from 'react';
 import { View, StyleSheet, Modal, TouchableOpacity, Text } from 'react-native';
 import { Ionicons } from '@expo/vector-icons'; 
-
+import themeContext from '../styles/themeContext';
 
 export default function ModaWindow({ Icon, Component } ){
- 
+
+  const theme = useContext(themeContext);
   const [modalVisible, setModalVisible] = useState(false);
 
   const closeModal = () => {
@@ -47,7 +48,6 @@ const styles = StyleSheet.create({
     backgroundColor: 'transparent',
     flexDirection: 'row',
     justifyContent: 'space-around',
-    height: 55,
   },
   modalWrapper: {
     flex: 1,
@@ -59,7 +59,7 @@ const styles = StyleSheet.create({
     top: '40%',
     alignSelf:'center',
     justifyContent: 'center',
-    width: '40%',
+    minWidth: '50%',
     backgroundColor: 'transparent',
     alignItems: 'center',
     paddingTop: 50,
